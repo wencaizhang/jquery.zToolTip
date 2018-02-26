@@ -36,25 +36,20 @@ demo: [http://wencaizhang.com/zToolTip](http://wencaizhang.com/zToolTip)
 
 ## 插件涉及到的 jQuery API
 1. `offset()`
-
 offset() 方法设置或返回被选元素**相对于文档**的偏移坐标。
 
-当用于返回偏移时： 
-该方法返回第一个匹配元素的偏移坐标。它返回一个带有两个属性（以像素为单位的 top 和 left 位置）的对象。
+当用于返回偏移时：该方法返回第一个匹配元素的偏移坐标。它返回一个带有两个属性（以像素为单位的 top 和 left 位置）的对象。
 
-当用于设置偏移时： 
-该方法设置所有匹配元素的偏移坐标。
-
+当用于设置偏移时：该方法设置所有匹配元素的偏移坐标。
 1. `outerWidth()`
 
 `outerWidth()` 方法返回第一个匹配元素的外部宽度，包含 padding 和 border，如需包含 margin，请使用 `outerWidth(true)`。
 
 ![outerWidth()](./imgs/img_outerwidth.gif)
-
 1. `outerHeight()`
 
 `outerHeight()` 方法返回第一个匹配元素的外部宽度，包含 padding 和 border，如需包含 margin，请使用 `outerHeight(true)`。
 
-![outerHeight()](./imgs/img_outerHeight.gif)
+![outerHeight()](./imgs/img_outerheight.gif)
 
 
