@@ -43,12 +43,12 @@ offset() 方法设置或返回被选元素**相对于文档**的偏移坐标。
 当用于设置偏移时：该方法设置所有匹配元素的偏移坐标。
 #### 2. `outerWidth()`
 
-`outerWidth()` 方法返回第一个匹配元素的外部宽度，包含 padding 和 border，如需包含 margin，请使用 `outerWidth(true)`。
+此方法返回第一个匹配元素的外部宽度，包含 padding 和 border，如需包含 margin，请使用 `outerWidth(true)`。
 
 ![outerWidth()](./imgs/img_outerwidth.gif)
 #### 3. `outerHeight()`
 
-`outerHeight()` 方法返回第一个匹配元素的外部宽度，包含 padding 和 border，如需包含 margin，请使用 `outerHeight(true)`。
+此方法返回第一个匹配元素的外部宽度，包含 padding 和 border，如需包含 margin，请使用 `outerHeight(true)`。
 
 ![outerHeight()](./imgs/img_outerheight.gif)
 
