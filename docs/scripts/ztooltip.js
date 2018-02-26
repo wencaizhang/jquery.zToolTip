@@ -1,16 +1,16 @@
-;
-(function ($) {
+;(function ($, window, document, undefined) {
     var pluginName = "formHint",
     defaults = {}
 
-    function FormHint (ele, options) {
+    function Plugin (ele, options) {
         var self = this;
         self.ele = $(ele);
         self.ele.attr("data-msg");
         self.settings = $.extend(defaults, { message: self.ele.attr("data-msg") }, options);
         self.init();
     }
-    FormHint.prototype = {
+
+    Plugin.prototype = {
 
         //提示信息定位，传入参数（提示对象，提示信息内容）
         init: function (configObj) {
@@ -99,11 +99,11 @@
 
     }
 
-    $.fn.formHint = function (options) {
+    $.fn[pluginName] = function (options) {
         this.each(function () {
-            new FormHint(this, options);
+            new Plugin(this, options);
         })
 
         return this;
     }
-})(jQuery);
+})(jQuery, window, document);
