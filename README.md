@@ -1,3 +1,5 @@
+## 造轮子，学习~~
+
 demo: [http://wencaizhang.com/zToolTip](http://wencaizhang.com/zToolTip)
 
 ## 代码约定
@@ -5,7 +7,7 @@ demo: [http://wencaizhang.com/zToolTip](http://wencaizhang.com/zToolTip)
 1. 在代码开头加上一个分号，避免代码与其他代码相连造成的错误
 1. 插件代码使用自执行的匿名函数包裹，既能第一时间执行插件代码，又能防止全局变量污染
 1. 将全局变量（如`window`）以参数形式传入插件内部，全局变量变为局部变量提升访问速度
-1. 巧妙的 `undefined`，用 `undefined` 接受一个不存在的参数，自然就是真的 `undefined` 了，hack~
+1. 巧妙的 `undefined`，用 `undefined` 接受一个不存在的参数，自然就是真的 `undefined` 了，so hack~
 1. 变量的定义，将要使用的变使用一个 `var`关键字一并定义在代码开头
 	+ 代码看起来整洁有规律，便于理解和管理
 	+ 变量之间使用逗号隔开的定义方式需要注意一个问题，即在增加新的变量时，要注意逗号和分号，避免出现下面的情况：
@@ -53,3 +55,6 @@ offset() 方法设置或返回被选元素**相对于文档**的偏移坐标。
 ![outerHeight()](./imgs/img_outerheight.gif)
 
 
+## 面相对象的插件开发
+
+将变量定义为对象的属性，将函数定义为对象的方法，方便管理，而且不会影响外部命名空间。
