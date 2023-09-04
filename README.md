@@ -1,6 +1,6 @@
 # 造轮子，学习~~
 
-示例页面: [http://wencaizhang.com/zToolTip](http://wencaizhang.com/zToolTip)
+示例页面: [https://coolfe.fun/jquery.zToolTip/](https://coolfe.fun/jquery.zToolTip/)
 
 ## 代码约定
 
